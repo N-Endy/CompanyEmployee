@@ -1,0 +1,107 @@
+2024-12-09 08:10:18 [INF] Application is shutting down...
+2024-12-09 08:10:18 [DBG] Hosting stopping
+2024-12-09 08:10:18 [DBG] Hosting stopped
+2024-12-09 08:11:54 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-09 08:11:54 [DBG] Hosting starting
+2024-12-09 08:11:54 [WRN] The WebRootPath was not found: /Users/MAC/Desktop/CompanyEmployees/API/wwwroot. Static files may be unavailable.
+2024-12-09 08:11:54 [INF] Now listening on: https://localhost:5001
+2024-12-09 08:11:54 [INF] Now listening on: http://localhost:5000
+2024-12-09 08:11:54 [DBG] Loaded hosting startup assembly API
+2024-12-09 08:11:54 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 08:11:54 [INF] Hosting environment: Development
+2024-12-09 08:11:54 [INF] Content root path: /Users/MAC/Desktop/CompanyEmployees/API
+2024-12-09 08:11:54 [DBG] Hosting started
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NF" received FIN.
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NF" accepted.
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NF" started.
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NG" accepted.
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NG" started.
+2024-12-09 08:12:08 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NF" stopped.
+2024-12-09 08:12:08 [DBG] Connection 0HN8O435JM7NG established using the following protocol: "Tls12"
+2024-12-09 08:12:08 [DBG] Connection id "0HN8O435JM7NF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 08:12:08 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/companies - null null
+2024-12-09 08:12:08 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-09 08:12:08 [DBG] 1 candidate(s) found for the request path '/api/companies'
+2024-12-09 08:12:08 [DBG] Endpoint 'API.Controllers.CompaniesController.GetCompanies (API)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-12-09 08:12:08 [DBG] Request matched endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-09 08:12:08 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-09 08:12:08 [INF] Executing endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-09 08:12:08 [INF] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller API.Controllers.CompaniesController (API).
+2024-12-09 08:12:08 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-09 08:12:08 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-09 08:12:08 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-09 08:12:08 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-09 08:12:08 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-09 08:12:08 [DBG] Executing controller factory for controller API.Controllers.CompaniesController (API)
+2024-12-09 08:12:08 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-09 08:12:08 [DBG] Executed controller factory for controller API.Controllers.CompaniesController (API)
+2024-12-09 08:12:08 [INF] Executing action method API.Controllers.CompaniesController.GetCompanies (API) - Validation state: "Valid"
+2024-12-09 08:12:48 [DBG] Entity Framework Core 8.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-09 08:12:48 [DBG] Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-12-09 08:12:48 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(50), 1], [Property: Company.Country (string) MaxLength(20), 2], [Property: Company.Name (string) Required MaxLength(50), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Infrastructure.DataAccess.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-09 08:12:48 [DBG] Creating DbConnection.
+2024-12-09 08:12:48 [DBG] Created DbConnection. (8ms).
+2024-12-09 08:12:48 [DBG] Opening connection to database 'main' on server 'CompanyEmployee.db'.
+2024-12-09 08:12:48 [DBG] Opened connection to database 'main' on server '/Users/MAC/Desktop/CompanyEmployees/API/CompanyEmployee.db'.
+2024-12-09 08:12:48 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-09 08:12:48 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-12-09 08:12:48 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-12-09 08:12:48 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."CompanyId", "c"."Address", "c"."Country", "c"."Name"
+FROM "Companies" AS "c"
+ORDER BY "c"."Name"
+2024-12-09 08:12:48 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."CompanyId", "c"."Address", "c"."Country", "c"."Name"
+FROM "Companies" AS "c"
+ORDER BY "c"."Name"
+2024-12-09 08:12:48 [DBG] Closing connection to database 'main' on server '/Users/MAC/Desktop/CompanyEmployees/API/CompanyEmployee.db'.
+2024-12-09 08:12:48 [DBG] Closed connection to database 'main' on server 'CompanyEmployee.db' (1ms).
+2024-12-09 08:12:48 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.DataAccess.RepositoryContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Companies'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Companies'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-12-09 08:12:48 [ERR] Something went wrong in the GetAllCompanies service method: SQLite Error 1: 'no such table: Companies'.

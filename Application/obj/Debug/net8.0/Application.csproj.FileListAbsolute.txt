@@ -1,0 +1,17 @@
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Application.deps.json
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Application.dll
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Application.pdb
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.dll
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/refint/Application.dll
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.pdb
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/ref/Application.dll
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Domain.dll
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Infrastructure.dll
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Infrastructure.pdb
+/Users/MAC/Desktop/CompanyEmployees/Application/bin/Debug/net8.0/Domain.pdb
+/Users/MAC/Desktop/CompanyEmployees/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date

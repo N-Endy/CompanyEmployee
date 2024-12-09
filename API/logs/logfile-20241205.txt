@@ -1,0 +1,263 @@
+2024-12-05 08:37:52 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-05 08:37:52 [DBG] Hosting starting
+2024-12-05 08:37:52 [WRN] The WebRootPath was not found: /Users/MAC/Desktop/CompanyEmployees/API/wwwroot. Static files may be unavailable.
+2024-12-05 08:37:52 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-12-05 08:37:52 [INF] Now listening on: https://localhost:5001
+2024-12-05 08:37:52 [INF] Now listening on: http://localhost:5000
+2024-12-05 08:37:52 [DBG] Loaded hosting startup assembly API
+2024-12-05 08:37:52 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-05 08:37:52 [INF] Hosting environment: Development
+2024-12-05 08:37:52 [INF] Content root path: /Users/MAC/Desktop/CompanyEmployees/API
+2024-12-05 08:37:52 [DBG] Hosting started
+2024-12-05 08:39:26 [INF] Application is shutting down...
+2024-12-05 08:39:26 [DBG] Hosting stopping
+2024-12-05 08:39:26 [DBG] Hosting stopped
+2024-12-05 08:40:08 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-05 08:40:08 [DBG] Hosting starting
+2024-12-05 08:40:08 [WRN] The WebRootPath was not found: /Users/MAC/Desktop/CompanyEmployees/API/wwwroot. Static files may be unavailable.
+2024-12-05 08:40:08 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-12-05 08:40:08 [INF] Now listening on: https://localhost:5001
+2024-12-05 08:40:08 [INF] Now listening on: http://localhost:5000
+2024-12-05 08:40:08 [DBG] Loaded hosting startup assembly API
+2024-12-05 08:40:08 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-05 08:40:08 [INF] Hosting environment: Development
+2024-12-05 08:40:08 [INF] Content root path: /Users/MAC/Desktop/CompanyEmployees/API
+2024-12-05 08:40:08 [DBG] Hosting started
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ER" accepted.
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ES" accepted.
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ER" started.
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ES" started.
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ER" received FIN.
+2024-12-05 08:40:32 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ES" received FIN.
+2024-12-05 08:40:32 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ES" stopped.
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ER" stopped.
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ES" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-05 08:40:32 [DBG] Connection id "0HN8L00CO28ER" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28ET" accepted.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EU" accepted.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28ET" started.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EU" started.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28ET" received FIN.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EU" received FIN.
+2024-12-05 08:40:37 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-05 08:40:37 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EV" accepted.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EU" stopped.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28ET" stopped.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EV" started.
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28EU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-05 08:40:37 [DBG] Connection id "0HN8L00CO28ET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-05 08:40:37 [DBG] Connection 0HN8L00CO28EV established using the following protocol: "Tls12"
+2024-12-05 08:40:37 [INF] Request starting HTTP/2 GET https://localhost:5001/weatherforecast - null null
+2024-12-05 08:40:37 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-05 08:40:37 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2024-12-05 08:40:37 [DBG] Endpoint 'API.Controllers.WeatherForecastController.Get (API)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2024-12-05 08:40:37 [DBG] Request matched endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-12-05 08:40:37 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-05 08:40:37 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-12-05 08:40:37 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller API.Controllers.WeatherForecastController (API).
+2024-12-05 08:40:37 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-05 08:40:37 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-05 08:40:37 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-05 08:40:37 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-05 08:40:37 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-05 08:40:37 [DBG] Executing controller factory for controller API.Controllers.WeatherForecastController (API)
+2024-12-05 08:40:37 [DBG] Executed controller factory for controller API.Controllers.WeatherForecastController (API)
+2024-12-05 08:40:37 [INF] Executing action method API.Controllers.WeatherForecastController.Get (API) - Validation state: "Valid"
+2024-12-05 08:40:37 [INF] Here is info message from our values controller.
+2024-12-05 08:40:37 [DBG] Here is debug message from our values controller.
+2024-12-05 08:40:37 [WRN] Here is warn message from our values controller.
+2024-12-05 08:40:37 [ERR] Here is an error message from our values controller.
+2024-12-05 08:40:37 [INF] Executed action method API.Controllers.WeatherForecastController.Get (API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8117ms.
+2024-12-05 08:40:37 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-05 08:40:37 [DBG] No information found on request to perform content negotiation.
+2024-12-05 08:40:37 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-05 08:40:37 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-05 08:40:37 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-05 08:40:37 [INF] Executing ObjectResult, writing value of type '<>z__ReadOnlyArray`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-05 08:40:37 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 58.9339ms
+2024-12-05 08:40:37 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-12-05 08:40:37 [INF] Request finished HTTP/2 GET https://localhost:5001/weatherforecast - 200 null application/json; charset=utf-8 97.7524ms
+2024-12-05 08:40:38 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - null null
+2024-12-05 08:40:38 [DBG] No candidates found for the request path '/favicon.ico'
+2024-12-05 08:40:38 [DBG] Request did not match any endpoints
+2024-12-05 08:40:38 [DBG] The request path /favicon.ico does not match an existing file
+2024-12-05 08:40:38 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - 404 0 null 1.8675ms
+2024-12-05 08:40:38 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/favicon.ico, Response status code: 404
+2024-12-05 08:40:42 [DBG] Connection id "0HN8L00CO28EV" received FIN.
+2024-12-05 08:40:42 [DBG] The connection queue processing loop for 0HN8L00CO28EV completed.
+2024-12-05 08:40:42 [DBG] Connection id "0HN8L00CO28EV" is closed. The last processed stream ID was 3.
+2024-12-05 08:40:42 [DBG] Connection id "0HN8L00CO28EV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-05 08:40:42 [DBG] Connection id "0HN8L00CO28EV" stopped.
+2024-12-05 08:45:49 [INF] Application is shutting down...
+2024-12-05 08:45:49 [DBG] Hosting stopping
+2024-12-05 08:45:49 [DBG] Hosting stopped
+2024-12-05 16:07:08 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-05 16:07:08 [DBG] Hosting starting
+2024-12-05 16:07:08 [WRN] The WebRootPath was not found: /Users/MAC/Desktop/CompanyEmployees/API/wwwroot. Static files may be unavailable.
+2024-12-05 16:07:09 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-12-05 16:07:09 [INF] Now listening on: https://localhost:5001
+2024-12-05 16:07:09 [INF] Now listening on: http://localhost:5000
+2024-12-05 16:07:09 [DBG] Loaded hosting startup assembly API
+2024-12-05 16:07:09 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-05 16:07:09 [INF] Hosting environment: Development
+2024-12-05 16:07:09 [INF] Content root path: /Users/MAC/Desktop/CompanyEmployees/API
+2024-12-05 16:07:09 [DBG] Hosting started
+2024-12-05 16:09:52 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-05 16:09:52 [DBG] Hosting starting
+2024-12-05 16:09:52 [WRN] The WebRootPath was not found: /Users/MAC/Desktop/CompanyEmployees/API/wwwroot. Static files may be unavailable.
+2024-12-05 16:09:52 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-12-05 16:09:52 [INF] Now listening on: https://localhost:5001
+2024-12-05 16:09:52 [INF] Now listening on: http://localhost:5000
+2024-12-05 16:09:52 [DBG] Loaded hosting startup assembly API
+2024-12-05 16:09:52 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-05 16:09:52 [INF] Hosting environment: Development
+2024-12-05 16:09:52 [INF] Content root path: /Users/MAC/Desktop/CompanyEmployees/API
+2024-12-05 16:09:52 [DBG] Hosting started
+2024-12-05 16:09:58 [INF] Application is shutting down...
+2024-12-05 16:09:58 [DBG] Hosting stopping
+2024-12-05 16:09:58 [DBG] Hosting stopped
+2024-12-05 16:09:59 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-05 16:09:59 [DBG] Hosting starting
+2024-12-05 16:09:59 [WRN] The WebRootPath was not found: /Users/MAC/Desktop/CompanyEmployees/API/wwwroot. Static files may be unavailable.
+2024-12-05 16:09:59 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-12-05 16:09:59 [INF] Now listening on: https://localhost:5001
+2024-12-05 16:09:59 [INF] Now listening on: http://localhost:5000
+2024-12-05 16:09:59 [DBG] Loaded hosting startup assembly API
+2024-12-05 16:09:59 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-05 16:09:59 [INF] Hosting environment: Development
+2024-12-05 16:09:59 [INF] Content root path: /Users/MAC/Desktop/CompanyEmployees/API
+2024-12-05 16:09:59 [DBG] Hosting started
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIP" received FIN.
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIP" accepted.
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIP" started.
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIQ" accepted.
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIQ" started.
+2024-12-05 16:10:07 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIP" stopped.
+2024-12-05 16:10:07 [DBG] Connection id "0HN8L7RJUNBIP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-05 16:10:08 [DBG] Connection 0HN8L7RJUNBIQ established using the following protocol: "Tls12"
+2024-12-05 16:10:08 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/companies - null null
+2024-12-05 16:10:08 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-05 16:10:08 [DBG] 1 candidate(s) found for the request path '/api/companies'
+2024-12-05 16:10:08 [DBG] Endpoint 'API.Controllers.CompaniesController.GetCompanies (API)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-12-05 16:10:08 [DBG] Request matched endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-05 16:10:08 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-05 16:10:08 [INF] Executing endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-05 16:10:08 [INF] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller API.Controllers.CompaniesController (API).
+2024-12-05 16:10:08 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-05 16:10:08 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-05 16:10:08 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-05 16:10:08 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-05 16:10:08 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-05 16:10:08 [DBG] Executing controller factory for controller API.Controllers.CompaniesController (API)
+2024-12-05 16:10:08 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-05 16:10:08 [DBG] Executed controller factory for controller API.Controllers.CompaniesController (API)
+2024-12-05 16:10:08 [INF] Executing action method API.Controllers.CompaniesController.GetCompanies (API) - Validation state: "Valid"
+2024-12-05 16:10:09 [DBG] Entity Framework Core 8.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-05 16:10:09 [DBG] Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-12-05 16:10:09 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(50), 1], [Property: Company.Country (string), 2], [Property: Company.Name (string) Required MaxLength(50), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Infrastructure.DataAccess.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-05 16:10:09 [DBG] Creating DbConnection.
+2024-12-05 16:10:09 [DBG] Created DbConnection. (6ms).
+2024-12-05 16:10:09 [DBG] Opening connection to database 'main' on server 'CompanyEmployee.db'.
+2024-12-05 16:10:09 [DBG] Opened connection to database 'main' on server '/Users/MAC/Desktop/CompanyEmployees/API/CompanyEmployee.db'.
+2024-12-05 16:10:09 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-05 16:10:09 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-12-05 16:10:09 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-12-05 16:10:09 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."CompanyId", "c"."Address", "c"."Country", "c"."Name"
+FROM "Companies" AS "c"
+ORDER BY "c"."Name"
+2024-12-05 16:10:09 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."CompanyId", "c"."Address", "c"."Country", "c"."Name"
+FROM "Companies" AS "c"
+ORDER BY "c"."Name"
+2024-12-05 16:10:09 [DBG] Closing connection to database 'main' on server '/Users/MAC/Desktop/CompanyEmployees/API/CompanyEmployee.db'.
+2024-12-05 16:10:09 [DBG] Closed connection to database 'main' on server 'CompanyEmployee.db' (1ms).
+2024-12-05 16:10:09 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.DataAccess.RepositoryContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Companies'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Companies'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-12-05 16:10:09 [ERR] Something went wrong in the nameof(GetAllCompanies) service method: SQLite Error 1: 'no such table: Companies'.
+2024-12-05 16:10:09 [INF] Executed action method API.Controllers.CompaniesController.GetCompanies (API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1372.1587ms.
+2024-12-05 16:10:09 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-05 16:10:09 [DBG] No information found on request to perform content negotiation.
+2024-12-05 16:10:09 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-05 16:10:09 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-05 16:10:09 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-12-05 16:10:09 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-05 16:10:09 [INF] Executed action API.Controllers.CompaniesController.GetCompanies (API) in 1595.0366ms
+2024-12-05 16:10:09 [INF] Executed endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-05 16:10:09 [DBG] Connection id "0HN8L7RJUNBIQ" completed keep alive response.
+2024-12-05 16:10:09 [DBG] 'RepositoryContext' disposed.
+2024-12-05 16:10:09 [DBG] Disposing connection to database 'main' on server 'CompanyEmployee.db'.
+2024-12-05 16:10:09 [DBG] Disposed connection to database 'main' on server 'CompanyEmployee.db' (1ms).
+2024-12-05 16:10:09 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/companies - 500 null text/plain; charset=utf-8 1634.3162ms
+2024-12-05 16:12:19 [DBG] Connection id "0HN8L7RJUNBIQ" disconnecting.
+2024-12-05 16:12:19 [DBG] Connection id "0HN8L7RJUNBIQ" stopped.
+2024-12-05 16:12:19 [DBG] Connection id "0HN8L7RJUNBIQ" sending FIN because: "The Socket transport's send loop completed gracefully."

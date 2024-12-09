@@ -105,3 +105,424 @@ Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such tab
    at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
    at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
 2024-12-09 08:12:48 [ERR] Something went wrong in the GetAllCompanies service method: SQLite Error 1: 'no such table: Companies'.
+2024-12-09 09:25:45 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-09 09:25:45 [DBG] Hosting starting
+2024-12-09 09:25:45 [WRN] The WebRootPath was not found: /Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/wwwroot. Static files may be unavailable.
+2024-12-09 09:25:46 [INF] Now listening on: https://localhost:5001
+2024-12-09 09:25:46 [INF] Now listening on: http://localhost:5000
+2024-12-09 09:25:46 [DBG] Loaded hosting startup assembly API
+2024-12-09 09:25:46 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 09:25:46 [INF] Hosting environment: Development
+2024-12-09 09:25:46 [INF] Content root path: /Users/mac/Documents/C#-Master-Class/CompanyEmployee/API
+2024-12-09 09:25:46 [DBG] Hosting started
+2024-12-09 09:32:03 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-09 09:32:04 [DBG] Hosting starting
+2024-12-09 09:32:04 [WRN] The WebRootPath was not found: /Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/wwwroot. Static files may be unavailable.
+2024-12-09 09:32:06 [INF] Now listening on: https://localhost:5001
+2024-12-09 09:32:06 [INF] Now listening on: http://localhost:5000
+2024-12-09 09:32:06 [DBG] Loaded hosting startup assembly API
+2024-12-09 09:32:06 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 09:32:06 [INF] Hosting environment: Development
+2024-12-09 09:32:06 [INF] Content root path: /Users/mac/Documents/C#-Master-Class/CompanyEmployee/API
+2024-12-09 09:32:06 [DBG] Hosting started
+2024-12-09 09:32:28 [DBG] Connection id "0HN8O5G24EK25" accepted.
+2024-12-09 09:32:28 [DBG] Connection id "0HN8O5G24EK25" started.
+2024-12-09 09:32:28 [DBG] Connection 0HN8O5G24EK25 established using the following protocol: "Tls12"
+2024-12-09 09:32:28 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null
+2024-12-09 09:32:29 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-09 09:32:29 [DBG] No candidates found for the request path '/swagger'
+2024-12-09 09:32:29 [DBG] Request did not match any endpoints
+2024-12-09 09:32:29 [DBG] The request path /swagger does not match a supported file type
+2024-12-09 09:32:29 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 404 0 null 215.2429ms
+2024-12-09 09:32:29 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/swagger, Response status code: 404
+2024-12-09 09:32:38 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null
+2024-12-09 09:32:38 [DBG] No candidates found for the request path '/swagger'
+2024-12-09 09:32:38 [DBG] Request did not match any endpoints
+2024-12-09 09:32:38 [DBG] The request path /swagger does not match a supported file type
+2024-12-09 09:32:38 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 404 0 null 2.7521ms
+2024-12-09 09:32:38 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/swagger, Response status code: 404
+2024-12-09 09:33:10 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null
+2024-12-09 09:33:10 [DBG] No candidates found for the request path '/swagger'
+2024-12-09 09:33:10 [DBG] Request did not match any endpoints
+2024-12-09 09:33:10 [DBG] The request path /swagger does not match a supported file type
+2024-12-09 09:33:10 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 404 0 null 2.9149ms
+2024-12-09 09:33:10 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/swagger, Response status code: 404
+2024-12-09 09:33:11 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null
+2024-12-09 09:33:11 [DBG] No candidates found for the request path '/swagger'
+2024-12-09 09:33:11 [DBG] Request did not match any endpoints
+2024-12-09 09:33:11 [DBG] The request path /swagger does not match a supported file type
+2024-12-09 09:33:11 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 404 0 null 0.474ms
+2024-12-09 09:33:11 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/swagger, Response status code: 404
+2024-12-09 11:17:12 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-09 11:17:15 [DBG] Entity Framework Core 8.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-09 11:17:17 [DBG] 'RepositoryContext' disposed.
+2024-12-09 11:18:13 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-09 11:18:15 [DBG] Entity Framework Core 8.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-09 11:18:15 [DBG] Creating DbConnection.
+2024-12-09 11:18:16 [DBG] Created DbConnection. (7ms).
+2024-12-09 11:18:16 [DBG] Migrating using database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Creating DbConnection.
+2024-12-09 11:18:16 [DBG] Created DbConnection. (1ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposing connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposed connection to database 'main' on server 'CompanyDatabase.db' (6ms).
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteScalar' (24ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteScalar' (30ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-09 11:18:16 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-09 11:18:16 [DBG] Closing connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Closed connection to database 'main' on server 'CompanyDatabase.db' (3ms).
+2024-12-09 11:18:16 [DBG] Creating DbConnection.
+2024-12-09 11:18:16 [DBG] Created DbConnection. (0ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposing connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-12-09 11:18:16 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-12-09 11:18:16 [DBG] Closing connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Closed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:18:16 [DBG] Creating DbConnection.
+2024-12-09 11:18:16 [DBG] Created DbConnection. (0ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposing connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-09 11:18:16 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-09 11:18:16 [DBG] Closing connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Closed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-09 11:18:16 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-09 11:18:16 [DBG] Closing data reader to 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] A data reader for 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db' is being disposed after spending 2ms reading results.
+2024-12-09 11:18:16 [DBG] Closing connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Closed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:18:16 [INF] Applying migration '20241209101716_init'.
+2024-12-09 11:18:16 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-12-09 11:18:16 [DBG] Began transaction with isolation level 'Serializable'.
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Companies" (
+    "CompanyId" TEXT NOT NULL CONSTRAINT "PK_Companies" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Address" TEXT NOT NULL,
+    "Country" TEXT NULL
+);
+2024-12-09 11:18:16 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Companies" (
+    "CompanyId" TEXT NOT NULL CONSTRAINT "PK_Companies" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Address" TEXT NOT NULL,
+    "Country" TEXT NULL
+);
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "EmployeeId" TEXT NOT NULL CONSTRAINT "PK_Employees" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Age" INTEGER NOT NULL,
+    "Position" TEXT NOT NULL,
+    "CompanyId" TEXT NOT NULL,
+    CONSTRAINT "FK_Employees_Companies_CompanyId" FOREIGN KEY ("CompanyId") REFERENCES "Companies" ("CompanyId") ON DELETE CASCADE
+);
+2024-12-09 11:18:16 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "EmployeeId" TEXT NOT NULL CONSTRAINT "PK_Employees" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Age" INTEGER NOT NULL,
+    "Position" TEXT NOT NULL,
+    "CompanyId" TEXT NOT NULL,
+    CONSTRAINT "FK_Employees_Companies_CompanyId" FOREIGN KEY ("CompanyId") REFERENCES "Companies" ("CompanyId") ON DELETE CASCADE
+);
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Companies" ("CompanyId", "Address", "Country", "Name")
+VALUES ('26F430D4-9DA9-4739-9841-D0BC08128CE2', '312 Forest Avenue, BF 923', 'USA', 'Admin_Solutions Ltd');
+SELECT changes();
+
+INSERT INTO "Companies" ("CompanyId", "Address", "Country", "Name")
+VALUES ('F943E9F6-4D1A-4FBD-9CFC-FC68D09F5EF9', '583 Wall Dr. Gwynn Oak, MD 21207', 'USA', 'Intel Corporation');
+SELECT changes();
+2024-12-09 11:18:16 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Companies" ("CompanyId", "Address", "Country", "Name")
+VALUES ('26F430D4-9DA9-4739-9841-D0BC08128CE2', '312 Forest Avenue, BF 923', 'USA', 'Admin_Solutions Ltd');
+SELECT changes();
+
+INSERT INTO "Companies" ("CompanyId", "Address", "Country", "Name")
+VALUES ('F943E9F6-4D1A-4FBD-9CFC-FC68D09F5EF9', '583 Wall Dr. Gwynn Oak, MD 21207', 'USA', 'Intel Corporation');
+SELECT changes();
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeId", "Age", "CompanyId", "Name", "Position")
+VALUES ('C6587829-0FB0-4E55-BBA6-2D741C18E900', 26, '26F430D4-9DA9-4739-9841-D0BC08128CE2', 'John Doe', 'Software Engineer');
+SELECT changes();
+
+INSERT INTO "Employees" ("EmployeeId", "Age", "CompanyId", "Name", "Position")
+VALUES ('DA7E6C07-4D9D-4920-AB0A-D525254346ED', 30, 'F943E9F6-4D1A-4FBD-9CFC-FC68D09F5EF9', 'Jana McLeaf', 'Software developer');
+SELECT changes();
+2024-12-09 11:18:16 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Employees" ("EmployeeId", "Age", "CompanyId", "Name", "Position")
+VALUES ('C6587829-0FB0-4E55-BBA6-2D741C18E900', 26, '26F430D4-9DA9-4739-9841-D0BC08128CE2', 'John Doe', 'Software Engineer');
+SELECT changes();
+
+INSERT INTO "Employees" ("EmployeeId", "Age", "CompanyId", "Name", "Position")
+VALUES ('DA7E6C07-4D9D-4920-AB0A-D525254346ED', 30, 'F943E9F6-4D1A-4FBD-9CFC-FC68D09F5EF9', 'Jana McLeaf', 'Software developer');
+SELECT changes();
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Employees_CompanyId" ON "Employees" ("CompanyId");
+2024-12-09 11:18:16 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Employees_CompanyId" ON "Employees" ("CompanyId");
+2024-12-09 11:18:16 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-09 11:18:16 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-09 11:18:16 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241209101716_init', '8.0.0');
+2024-12-09 11:18:16 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241209101716_init', '8.0.0');
+2024-12-09 11:18:16 [DBG] Committing transaction.
+2024-12-09 11:18:16 [DBG] Committed transaction.
+2024-12-09 11:18:16 [DBG] Disposing transaction.
+2024-12-09 11:18:16 [DBG] Closing connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Closed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:18:16 [DBG] 'RepositoryContext' disposed.
+2024-12-09 11:18:16 [DBG] Disposing connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:18:16 [DBG] Disposed connection to database 'main' on server 'CompanyDatabase.db' (0ms).
+2024-12-09 11:22:50 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-09 11:22:51 [DBG] Hosting starting
+2024-12-09 11:22:51 [WRN] The WebRootPath was not found: /Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/wwwroot. Static files may be unavailable.
+2024-12-09 11:22:52 [INF] Now listening on: https://localhost:5001
+2024-12-09 11:22:52 [INF] Now listening on: http://localhost:5000
+2024-12-09 11:22:52 [DBG] Loaded hosting startup assembly API
+2024-12-09 11:22:52 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 11:22:52 [INF] Hosting environment: Development
+2024-12-09 11:22:52 [INF] Content root path: /Users/mac/Documents/C#-Master-Class/CompanyEmployee/API
+2024-12-09 11:22:52 [DBG] Hosting started
+2024-12-09 11:23:21 [DBG] Connection id "0HN8O7E0URRQF" accepted.
+2024-12-09 11:23:21 [DBG] Connection id "0HN8O7E0URRQF" started.
+2024-12-09 11:23:21 [DBG] Connection 0HN8O7E0URRQF established using the following protocol: "Tls12"
+2024-12-09 11:23:22 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null
+2024-12-09 11:23:22 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-09 11:23:22 [DBG] No candidates found for the request path '/swagger'
+2024-12-09 11:23:22 [DBG] Request did not match any endpoints
+2024-12-09 11:23:22 [DBG] The request path /swagger does not match a supported file type
+2024-12-09 11:23:22 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 404 0 null 65.8623ms
+2024-12-09 11:23:22 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/swagger, Response status code: 404
+2024-12-09 11:23:24 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - null null
+2024-12-09 11:23:24 [DBG] No candidates found for the request path '/swagger'
+2024-12-09 11:23:24 [DBG] Request did not match any endpoints
+2024-12-09 11:23:24 [DBG] The request path /swagger does not match a supported file type
+2024-12-09 11:23:24 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - 404 0 null 2.2662ms
+2024-12-09 11:23:24 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/swagger, Response status code: 404
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQG" received FIN.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQG" accepted.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQG" started.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQH" accepted.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQH" started.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQG" disconnecting.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQG" stopped.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQH" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQH" disconnecting.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQH" stopped.
+2024-12-09 11:25:03 [DBG] Connection id "0HN8O7E0URRQH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQI" accepted.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQI" started.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQI" received FIN.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQJ" accepted.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQI" disconnecting.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQI" stopped.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQJ" started.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQJ" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQJ" disconnecting.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQJ" stopped.
+2024-12-09 11:25:07 [DBG] Connection id "0HN8O7E0URRQJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQK" accepted.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQK" started.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQK" received FIN.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQK" disconnecting.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQL" accepted.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQL" started.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQK" stopped.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQL" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.GetUnknownMethodLength(ReadOnlySpan`1 span)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, ReadOnlySpan`1 requestLine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQL" disconnecting.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQL" stopped.
+2024-12-09 11:25:10 [DBG] Connection id "0HN8O7E0URRQL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQM" accepted.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQM" started.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQM" received FIN.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQM" disconnecting.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQN" accepted.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQN" started.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQM" stopped.
+2024-12-09 11:25:15 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/companies - null null
+2024-12-09 11:25:15 [DBG] 1 candidate(s) found for the request path '/api/companies'
+2024-12-09 11:25:15 [DBG] Endpoint 'API.Controllers.CompaniesController.GetCompanies (API)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-12-09 11:25:15 [DBG] Request matched endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-09 11:25:15 [DBG] Https port '5001' loaded from configuration.
+2024-12-09 11:25:15 [DBG] Redirecting to 'https://localhost:5001/api/companies'.
+2024-12-09 11:25:15 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/companies - 307 0 null 26.3195ms
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQN" disconnecting.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQN" stopped.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQO" received FIN.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQO" accepted.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQP" accepted.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQO" started.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQP" started.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQO" disconnecting.
+2024-12-09 11:25:15 [DBG] Connection id "0HN8O7E0URRQO" stopped.
+2024-12-09 11:25:15 [DBG] Connection 0HN8O7E0URRQP established using the following protocol: "Tls12"
+2024-12-09 11:25:15 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/companies - null null
+2024-12-09 11:25:15 [DBG] 1 candidate(s) found for the request path '/api/companies'
+2024-12-09 11:25:15 [DBG] Endpoint 'API.Controllers.CompaniesController.GetCompanies (API)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-12-09 11:25:15 [DBG] Request matched endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-09 11:25:15 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-09 11:25:15 [INF] Executing endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-09 11:25:16 [INF] Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller API.Controllers.CompaniesController (API).
+2024-12-09 11:25:16 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-09 11:25:16 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-09 11:25:16 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-09 11:25:16 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-09 11:25:16 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-09 11:25:16 [DBG] Executing controller factory for controller API.Controllers.CompaniesController (API)
+2024-12-09 11:25:16 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-09 11:25:16 [DBG] Executed controller factory for controller API.Controllers.CompaniesController (API)
+2024-12-09 11:25:19 [DBG] Entity Framework Core 8.0.0 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-09 11:25:19 [DBG] Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-12-09 11:25:20 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(50), 1], [Property: Company.Country (string) MaxLength(20), 2], [Property: Company.Name (string) Required MaxLength(50), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Infrastructure.DataAccess.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-09 11:25:20 [DBG] Creating DbConnection.
+2024-12-09 11:25:20 [DBG] Created DbConnection. (16ms).
+2024-12-09 11:25:20 [DBG] Opening connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:25:20 [DBG] Opened connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:25:20 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-09 11:25:20 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-12-09 11:25:20 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2024-12-09 11:25:20 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."CompanyId", "c"."Address", "c"."Country", "c"."Name"
+FROM "Companies" AS "c"
+ORDER BY "c"."Name"
+2024-12-09 11:25:20 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."CompanyId", "c"."Address", "c"."Country", "c"."Name"
+FROM "Companies" AS "c"
+ORDER BY "c"."Name"
+2024-12-09 11:25:20 [DBG] Closing data reader to 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:25:20 [DBG] A data reader for 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db' is being disposed after spending 19ms reading results.
+2024-12-09 11:25:20 [DBG] Closing connection to database 'main' on server '/Users/mac/Documents/C#-Master-Class/CompanyEmployee/API/CompanyDatabase.db'.
+2024-12-09 11:25:20 [DBG] Closed connection to database 'main' on server 'CompanyDatabase.db' (7ms).
+2024-12-09 11:25:20 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-09 11:25:20 [DBG] No information found on request to perform content negotiation.
+2024-12-09 11:25:20 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-09 11:25:20 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-09 11:25:20 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-09 11:25:20 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Entities.Models.Company, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-09 11:25:21 [INF] Executed action API.Controllers.CompaniesController.GetCompanies (API) in 4903.3647ms
+2024-12-09 11:25:21 [INF] Executed endpoint 'API.Controllers.CompaniesController.GetCompanies (API)'
+2024-12-09 11:25:21 [DBG] 'RepositoryContext' disposed.
+2024-12-09 11:25:21 [DBG] Disposing connection to database 'main' on server 'CompanyDatabase.db'.
+2024-12-09 11:25:21 [DBG] Disposed connection to database 'main' on server 'CompanyDatabase.db' (3ms).
+2024-12-09 11:25:21 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/companies - 200 null application/json; charset=utf-8 5097.0847ms
+2024-12-09 11:25:21 [DBG] Connection id "0HN8O7E0URRQP" disconnecting.
+2024-12-09 11:25:21 [DBG] Connection id "0HN8O7E0URRQP" stopped.
+2024-12-09 11:25:21 [DBG] Connection id "0HN8O7E0URRQP" sending FIN because: "The Socket transport's send loop completed gracefully."

@@ -10,3 +10,16 @@
 /Users/MAC/Desktop/CompanyEmployees/Domain/obj/Debug/net8.0/Domain.pdb
 /Users/MAC/Desktop/CompanyEmployees/Domain/obj/Debug/net8.0/ref/Domain.dll
 /Users/MAC/Desktop/CompanyEmployees/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/bin/Debug/net8.0/Domain.dll
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.dll
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/Debug/net8.0/ref/Domain.dll

@@ -1,34 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/MAC/Desktop/CompanyEmployees/Application/Application.csproj": {}
+    "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/MAC/Desktop/CompanyEmployees/Application/Application.csproj": {
+    "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MAC/Desktop/CompanyEmployees/Application/Application.csproj",
+        "projectUniqueName": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/MAC/Desktop/CompanyEmployees/Application/Application.csproj",
-        "packagesPath": "/Users/MAC/.nuget/packages/",
-        "outputPath": "/Users/MAC/Desktop/CompanyEmployees/Application/obj/",
+        "projectPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Application/Application.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Application/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/Users/MAC/.nuget/NuGet/NuGet.Config"
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/MAC/Desktop/CompanyEmployees/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/MAC/Desktop/CompanyEmployees/Infrastructure/Infrastructure.csproj"
+              "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -81,27 +81,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/MAC/Desktop/CompanyEmployees/Domain/Domain.csproj": {
+    "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MAC/Desktop/CompanyEmployees/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/MAC/Desktop/CompanyEmployees/Domain/Domain.csproj",
-        "packagesPath": "/Users/MAC/.nuget/packages/",
-        "outputPath": "/Users/MAC/Desktop/CompanyEmployees/Domain/obj/",
+        "projectPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/Domain.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/Users/MAC/.nuget/NuGet/NuGet.Config"
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,35 +146,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/MAC/Desktop/CompanyEmployees/Infrastructure/Infrastructure.csproj": {
+    "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MAC/Desktop/CompanyEmployees/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/MAC/Desktop/CompanyEmployees/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/MAC/.nuget/packages/",
-        "outputPath": "/Users/MAC/Desktop/CompanyEmployees/Infrastructure/obj/",
+        "projectPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/Users/MAC/.nuget/NuGet/NuGet.Config"
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/MAC/Desktop/CompanyEmployees/Domain/Domain.csproj": {
-                "projectPath": "/Users/MAC/Desktop/CompanyEmployees/Domain/Domain.csproj"
+              "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/Domain.csproj": {
+                "projectPath": "/Users/mac/Documents/C#-Master-Class/CompanyEmployee/Domain/Domain.csproj"
               }
             }
           }
@@ -194,10 +194,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -209,14 +205,6 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.FileExtensions": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
             }
@@ -237,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

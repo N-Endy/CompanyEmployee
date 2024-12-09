@@ -4,17 +4,11 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Load configuration from appsettings.json
-var configuration = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-    .Build();
-
 // Add services to the container.
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 builder.Services.ConfigureLoggerService();
-builder.Services.ConfigureSqliteContext(configuration);
+builder.Services.ConfigureSqliteContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 
